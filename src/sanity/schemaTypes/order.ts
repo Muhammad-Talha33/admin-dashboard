@@ -1,4 +1,3 @@
-import { list } from "postcss";
 
 export default {
   name: "order",
