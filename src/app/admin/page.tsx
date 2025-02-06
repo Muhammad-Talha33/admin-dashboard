@@ -24,8 +24,8 @@ export default function AdminLogin() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <form onSubmit={handleLogin} className="bg-white p-6 rounded shadow-md">
-        <h2 className="text-xl font-bold mb-4">Admin Login</h2>
+      <form onSubmit={handleLogin} className="bg-white p-6 rounded-lg shadow-slate-500 shadow-xl lg:py-24 lg:px-12 md:py-24 md:px-12">
+        <h2 className="text-xl lg:text-3xl md:text-2xl font-extrabold mb-4 text-center">Admin Login</h2>
         <input
           type="email"
           placeholder="Email"
@@ -40,7 +40,7 @@ export default function AdminLogin() {
           className="w-full p-3 mb-4 border border-gray-300 rounded"
           value={password}
         />
-        <button type="submit" className="bg-red-500 text-white px-4 py-2 rounded w-full">
+        <button type="submit" className="bg-black text-white px-4 py-2 rounded w-full">
            Login
         </button>
       </form>
